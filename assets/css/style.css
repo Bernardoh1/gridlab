@@ -60,8 +60,9 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100px 250px;
     gap: 16px;
-    column-gap: 24px;
-    row-gap: 12px;
+    justify-items: stretch;
+    align-items: stretch;
+}
 
 .item {
     min-height: 100px;
@@ -72,4 +73,6 @@ body {
     border-radius: 8px;
     font-size: 24px;
     font-weight: 700;
+   
 }
+
